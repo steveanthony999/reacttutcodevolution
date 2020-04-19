@@ -1,11 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
+import HelloWorld from './01-hello-world/HelloWorld'
+import Greet from './02-functional-components/Greet'
+import Welcome from './03-class-components/Welcome'
+import Hello from './04-jsx/Hello'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello React</h1>
+      <HelloWorld />
+      <Greet name='Steve'/>
+      <Welcome />
+      <Hello />
     </div>
   );
 }
